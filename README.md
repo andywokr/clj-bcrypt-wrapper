@@ -6,7 +6,7 @@ A very simple wrapper around the org.mindrot.jbcrypt library.
 ## Usage
 
 ```clojure
-;;In your project.clj
+;;In your project.clj:
 [clj-bcrypt-wrapper "0.1.0"]
 
 
