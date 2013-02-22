@@ -20,8 +20,8 @@ A very simple wrapper around the org.mindrot.jbcrypt library.
 ;;default salt
 (encrypt "some password")
 
-;;supplied salt
-(encrypt (gen-salt 10) "some password")
+;;supply a salt
+(encrypt (gensalt 10) "some password")
 ```
 
 ### Checking 
